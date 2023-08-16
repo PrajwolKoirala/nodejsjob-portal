@@ -1,7 +1,7 @@
 
 const express = require("express");
 const router = express.Router()
-const {postJob,fetchJob,update,remove} = require("../controller/jobs");
+const {postJob,fetchJob,update,remove} = require("../controller/Jobs");
 const{checkAuthentication,isEmployee} = require("../middleware/checkAuthentication")
 
 
